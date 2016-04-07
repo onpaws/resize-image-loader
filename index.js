@@ -11,7 +11,7 @@
 //    require('resize-image?format=webp!./myImage.jpg');
 
 var debug = require('debug')('resize-image-loader');
-var gm = require('gm').subClass({ imageMagick: true });
+var gm = require('gm');
 var Datauri = require('datauri');
 var fs = require('fs');
 var loaderUtils = require('loader-utils');
